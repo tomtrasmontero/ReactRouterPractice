@@ -1,23 +1,22 @@
-import React, { Component} from 'react';
+import React, { Component } from 'react';
 import { render } from 'react-dom';
-
 
 
 const root = document.getElementById('root');
 
-class App extends Component{
-  constructor(props){
+class App extends Component {
+  constructor(props) {
     super();
-    this.specialNumber = props.specialNumber; 
+    this.specialNumber = props.specialNumber;
   }
-  render(){
+  render() {
     return (
-      <div className='well'>
+      <div className="well">
         { this.specialNumber }
-      </div> 
+      </div>
     );
   }
 }
 
 
-render(<App specialNumber={42}/>, root);
+render(<App specialNumber={42} />, root);
