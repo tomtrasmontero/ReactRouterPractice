@@ -97,6 +97,7 @@ const ProductDetail = (props) => {
 
 const routes = (
   <Router history={hashHistory}>
+    {/* Parent component is App module */}
     <Route path="/" component={App} >
       <IndexRoute component={Home} />
       <Route path="products" component={Products} />
