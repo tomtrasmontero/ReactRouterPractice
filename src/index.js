@@ -4,8 +4,6 @@ import axios from 'axios';
 import { Router, Route, hashHistory, IndexRoute, Link } from 'react-router';
 
 
-const root = document.getElementById('root');
-
 class App extends Component {
   constructor(props) {
     super();
